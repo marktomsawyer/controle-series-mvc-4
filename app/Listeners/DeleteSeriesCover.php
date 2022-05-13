@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace App\Listeners;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -21,3 +21,4 @@ class DeleteSeriesCover implements ShouldQueue
         Storage::disk('public')->delete($this->seriesCoverPath);
     }
 }
+

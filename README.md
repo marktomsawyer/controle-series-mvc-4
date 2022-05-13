@@ -1,5 +1,10 @@
+# LARAVEL 9 MVC
 
+## Validar recebimento de arquivo de imagem
+## Excluir imagem quando excluir a série (evento no delete)
 
-# Validar recebimento de arquivo de imagem
+### composer install
+### php artisan migrate:refresh
+### php artisan storage:link
+### php artisan serve
 
-# Excluir imagem quando excluir a série (evento no delete)
